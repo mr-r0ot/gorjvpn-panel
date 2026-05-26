@@ -7,8 +7,10 @@ from Crypto.Util.Padding import pad
 from Crypto.Random import get_random_bytes
 
 # ---------- Configuration ----------
+# کلید رمزگذاری (بعداً می‌توانید آن را به یک مقدار قوی تغییر دهید)
 ENCRYPTION_KEY = b'\x9f!\x8c\x7e\xd4\x1a\xb3\xc5\xe6\xf0\x2a\x3d\x5e\x7a\x8b\x9c\x0d\x1e\x2f\x3a\x4b\x5c\x6d\x7e\x8f\x9a\xab\xbc\xcd\xde\xef\xf0'
-LOCAL_ENCRYPTED_FILE = "data.enc"       # This file will be created/read locally.
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/mr-r0ot/test/refs/heads/main/acc.txt" #لینک ارتباط بین کاربر و ادمین روی گیت هاب
+       # This file will be created/read locally.
                                         # Admin will manually upload its content to GitHub (acc.txt)
 
 # ---------- Crypto Functions ----------
