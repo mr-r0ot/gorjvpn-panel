@@ -15,7 +15,7 @@ from Crypto.Util.Padding import unpad
 # ========== تنظیمات اولیه ==========
 # کلید رمزگذاری (بعداً می‌توانید آن را به یک مقدار قوی تغییر دهید)
 ENCRYPTION_KEY = b'\x9f!\x8c\x7e\xd4\x1a\xb3\xc5\xe6\xf0\x2a\x3d\x5e\x7a\x8b\x9c\x0d\x1e\x2f\x3a\x4b\x5c\x6d\x7e\x8f\x9a\xab\xbc\xcd\xde\xef\xf0'
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/mr-r0ot/Chess-player-Cloner-AI/refs/heads/main/acc.txt"
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/mr-r0ot/test/refs/heads/main/acc.txt" #لینک ارتباط بین کاربر و ادمین روی گیت هاب
 
 VERSION = 2  # نسخه فعلی برنامه شما (در بروزرسانی‌ها زیاد می‌شود)
 
